@@ -1,0 +1,47 @@
+
+/*箭头*/
+.arrowMove{
+    animation: arrowMove 1s linear infinite;
+}
+@keyframes arrowMove {
+    0%{transform: translateY(0);opacity: 1;}
+    100%{transform: translateY(-0.2rem);opacity: 0;}
+}
+/*音乐*/
+.rotateMusic{
+    animation: rotateMusic 2s linear infinite;
+}
+@keyframes rotateMusic{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+/*头像*/
+
+.img12{
+    animation: img12 2s linear infinite;
+}
+
+
+
+/*进度条*/
+.jdt{
+    animation: jdt 1s linear forwards;
+}
+@keyframes jdt {
+    0%{  width: 0;  }
+    100%{
+        width: 100%;}
+}
+.fada{
+    animation:fada 1s linear forwards;
+}
+@keyframes fada {
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+
+
+
+
+
+

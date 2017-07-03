@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#666;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+.page{
+    position: relative;
+    background: url("../img/6402238385a5353.png")no-repeat;
+    background-size:8.53rem 100% ;
+}
+/*1*/
+.img1{
+    height: 6.07rem;
+    width: 6.21rem;
+    position: absolute;
+    top:40%;
+    left:50%;
+    margin-left: -3.2rem;
+
+}
+.img2{
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    left:0rem;
+
+}
+.img3{
+    height: 0.4rem;
+    width: 1.5rem;
+    max-width: inherit;
+    position: absolute;
+    top: 1rem;
+    left:56%;
+    z-index: 3;
+}
+.img4{
+    position: absolute;
+    top:13%;
+    left:50%;
+    margin-left:-1.8rem;
+    width:3.65rem;
+    height:1.0rem;
+}
+.img5{
+    position: absolute;
+    top:2.6rem;
+    left:50%;
+    margin-left:-1.8rem;
+    height: 0.4rem;
+    width: 1.5rem;
+}
+.name{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:15%;
+    left:28%;
+}
+.img6{
+    height: 0.6rem;
+    width: 2.8rem;
+    max-width: inherit;
+    z-index:5;
+    position: absolute;
+    top:60%;
+    left:50%;
+    margin-left: -1.4rem;
+}
+.img7{
+    z-index: 5;
+    position: absolute;
+    top:70%;
+    left:50%;
+    margin-left: -0.6rem;
+    width:1.15rem;
+    height:0.8rem;
+}
+.img8{
+    z-index: 5;
+    position: absolute;
+    top:71.5%;
+    left:50%;
+    margin-left: -1rem;
+    width:2rem;
+    height:0.35rem;
+}
+.img9{
+    z-index: 5;
+    position: absolute;
+    top:74%;
+    left:80%;
+    margin-left: -1rem;
+    width:0.8rem;
+    height:0.3rem;
+}
+.img10{
+    z-index: 5;
+    position: absolute;
+    top:75%;
+    left:80%;
+    margin-left: -1rem;
+    width:0.8rem;
+    height:0.7rem;
+}
+.img11{
+    z-index: 5;
+    position: absolute;
+    top:28%;
+    left:50%;
+    margin-left:-1.4rem;
+    width:3rem;
+    height:3rem;
+
+}
+.img12{
+    z-index: 5;
+    position: absolute;
+    top:30.2%;
+    left:54%;
+    margin-left:-1.4rem;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+
+}
+/*2*/
+.img13{
+    height: 6.07rem;
+    width: 6.21rem;
+    position: absolute;
+    top:20%;
+    left:50%;
+    margin-left: -3.2rem;
+    z-index: 0;
+}
+.img14{
+    z-index: 3;
+    width:2.7rem;
+    height:2.7rem;
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+.img15{
+    z-index: 1;
+    width:3.2rem;
+    height:3.2rem;
+    position: absolute;
+    top:28%;
+    left:43%;
+}
+.img16{
+    height: 0.4rem;
+    width: 1.5rem;
+    max-width: inherit;
+    position: absolute;
+    top: 1rem;
+    left:56%;
+    z-index: 3;
+}
+.img17{
+    position: absolute;
+    top:13%;
+    left:50%;
+    margin-left:-1.8rem;
+    width:3.65rem;
+    height:1.0rem;
+}
+.img18{
+    position: absolute;
+    top:2.6rem;
+    left:50%;
+    margin-left:-1.8rem;
+    height: 0.4rem;
+    width: 1.5rem;
+}
+.name1{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:15%;
+    left:38%;
+}
+.img19{
+    z-index: 2;
+    position: absolute;
+    top:35%;
+    left:8%;
+    width:2.2rem;
+    height:1.8rem;
+}
+.img20{
+    z-index: 2;
+    position: absolute;
+    top:36.5%;
+    left:8%;
+    width:2rem;
+    height:0.3rem;
+}
+.img21{
+    z-index: 2;
+    position: absolute;
+    top:47%;
+    left:8%;
+    width:2rem;
+    height:0.3rem;
+}
+.name2{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:41%;
+    left:8%;
+}
+.img22{
+    z-index: 1;
+    position: absolute;
+    top:65%;
+    left:50%;
+    margin-left: -0.6rem;
+    width:1.55rem;
+    height:1.2rem;
+}
+.img23{
+    z-index: 1;
+    position: absolute;
+    top:69%;
+    left:45%;
+    margin-left: -0.6rem;
+    width:1.15rem;
+    height:0.8rem;
+}
+.ul24{
+    z-index: 3;
+    position: absolute;
+    top:58%;
+    left:8%;
+
+}
+.ul24 li{
+    font: 0.28rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    line-height: 0.6rem;
+}
+.img25{
+    z-index: 5;
+    position: absolute;
+    top:78%;
+    right:8%;
+    margin-left: -1rem;
+    width:0.8rem;
+    height:0.3rem;
+}
+.img26{
+    z-index: 5;
+    position: absolute;
+    top:79%;
+    right:8%;
+    margin-left: -1rem;
+    width:0.8rem;
+    height:0.7rem;
+}
+/*3*/
+
+.named1{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:15%;
+    left:42%;
+}
+
+.page3 .jingdu{
+    width: 100%;
+    height: 0.4rem;
+    background: #666;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: right;
+}
+.page3 .jingdu h2{
+    color: #ffffff;
+    font-size: 0.3rem;
+}
+.page3 .jingdu p{
+    width: 0;
+    background: orange;
+    height: 0.4rem;
+
+}
+.page3 .tiao1{
+    position: absolute;
+    top: 35%;
+}
+.page3 .tiao2{
+    position: absolute;
+    top: 48%;
+}
+.page3 .tiao3{
+    position: absolute;
+    top: 61%;
+}
+.page3 .tiao4{
+    position: absolute;
+    top: 74%;
+}
+.page3 .tiao1 h2{
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+}
+.page3 .tiao2 h2{
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+}
+.page3 .tiao3 h2{
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+}
+.page3 .tiao4 h2{
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+}
+.page3 .tiao1 .fu1{
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+}
+.page3 .tiao2 .fu2{
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.page3 .tiao3 .fu3{
+    width: 88%;
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.page3 .tiao4 .fu4{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+/*4*/
+.img27{
+      z-index: 1;
+      position: absolute;
+      top:28%;
+      left:0;
+      width:1.8rem;
+      height:4.7rem;
+}
+.img28{
+    z-index: 1;
+    position: absolute;
+    top:60%;
+    left:11%;
+    width:0.8rem;
+    height:0.8rem;
+}
+.name3{
+    z-index: 3;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:36%;
+    left:5%;
+}
+.img29{
+    z-index: 2;
+    position: absolute;
+    top:20%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img30{
+    z-index: 2;
+    position: absolute;
+    top:45%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img31{
+    z-index: 2;
+    position: absolute;
+    top:70%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.name4{
+     z-index: 2;
+     font: 0.32rem Î¢ÈíÑÅºÚ;
+     color: rgb(255, 255, 255);
+     position: absolute;
+     top:22%;
+     left:33%;
+ }
+.name5{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:47%;
+    left:33%;
+}
+.name6{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:72%;
+    left:32%;
+}
+.img32{
+    z-index: 1;
+    position: absolute;
+    top:13%;
+    left:54%;
+    width:2.6rem;
+    height:2.6rem;
+}
+.img33{
+    z-index: 1;
+    position: absolute;
+    top:40%;
+    left:54%;
+    width:2.6rem;
+    height:2.6rem;
+}
+.img34{
+    z-index: 1;
+    position: absolute;
+    top:65%;
+    left:54%;
+    width:2.6rem;
+    height:2.6rem;
+}
+.img35{
+    z-index: 1;
+    position: absolute;
+    top:15%;
+    left:52%;
+    width:2.4rem;
+    height:2.2rem;
+}
+.img36{
+    z-index: 1;
+    position: absolute;
+    top:42%;
+    left:52%;
+    width:2.4rem;
+    height:2.2rem;
+}
+.img37{
+    z-index: 1;
+    position: absolute;
+    top:66%;
+    left:52%;
+    width:2.4rem;
+    height:2.2rem;
+}
+/*5*/
+.img38{
+    z-index: 2;
+    position: absolute;
+    top:10%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img39{
+    z-index: 2;
+    position: absolute;
+    top:20%;
+    left:60%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img40{
+    z-index: 2;
+    position: absolute;
+    top:30%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img41{
+    z-index: 2;
+    position: absolute;
+    top:40%;
+    left:60%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img42{
+    z-index: 2;
+    position: absolute;
+    top:50%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img43{
+    z-index: 2;
+    position: absolute;
+    top:60%;
+    left:60%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.img44{
+    z-index: 2;
+    position: absolute;
+    top:70%;
+    left:30%;
+    width:1.8rem;
+    height:1.0rem;
+}
+.name7{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:12%;
+    left:33%;
+}
+.name8{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:22%;
+    left:64%;
+}
+.name9{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:32%;
+    left:33%;
+}
+.name10{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:42%;
+    left:64%;
+}
+.name11{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:52%;
+    left:33%;
+}
+.name12{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:62%;
+    left:64%;
+}
+.name13{
+    z-index: 2;
+    font: 0.32rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:72%;
+    left:33%;
+}
+
+/*6*/
+.name14{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:10%;
+    left:40%;
+}
+.img45{
+     z-index: 1;
+     position: absolute;
+     top:6%;
+     left:15%;
+     width:5rem;
+     height:1.7rem;
+ }
+.img46{
+    z-index: 1;
+    position: absolute;
+    top:23%;
+    left:60%;
+
+}
+.img47{
+    z-index: 1;
+    position: absolute;
+    top:25%;
+    left:75%;
+
+}
+.img48{
+    z-index: 1;
+    position: absolute;
+    top:30%;
+    left:12%;
+    width:5rem;
+    height:6rem;
+}
+.img49{
+    z-index: 1;
+    position: absolute;
+    top:37%;
+    left:12%;
+    width:4.5rem;
+    height:4.5rem;
+}
+.img50{
+    z-index: 1;
+    position: absolute;
+    top:39%;
+    left:15%;
+    width:3.5rem;
+    height:0.5rem;
+}
+.img51{
+    z-index: 1;
+    position: absolute;
+    top:46%;
+    left:15%;
+    width:2.2rem;
+    height:0.5rem;
+}
+.img52{
+    z-index: 1;
+    position: absolute;
+    top:52%;
+    left:14%;
+    width:4.3rem;
+    height:0.05rem;
+
+}
+.name15{
+    z-index: 2;
+    position: absolute;
+    top:54%;
+    left:14%;
+}
+.name15 li{
+    font: 0.24rem Î¢ÈíÑÅºÚ;
+    font-family: Î¢ÈíÑÅºÚ;
+    color:orange;
+    line-height: 0.5rem;
+}
+.img53{
+    z-index: 1;
+    position: absolute;
+    top:85%;
+    left:45%;
+}
+.img54{
+    z-index: 1;
+    position: absolute;
+    top:91%;
+    left:43%;
+}
+
+/*7*/
+.img55{
+    z-index: 1;
+    position: absolute;
+    top:10%;
+    left:60%;
+
+}
+.img56{
+    z-index: 1;
+    position: absolute;
+    top:12%;
+    left:75%;
+
+}
+.img57{
+    z-index: 1;
+    position: absolute;
+    bottom:10%;
+    right:60%;
+
+}
+.img58{
+    z-index: 1;
+    position: absolute;
+    bottom:12%;
+    right:75%;
+
+}
+.name16{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:35%;
+    left:5%;
+}
+.name17{
+    z-index: 2;
+    font: 0.38rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+.name18{
+    z-index: 2;
+    font: 0.7rem Î¢ÈíÑÅºÚ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:48%;
+    left:40%;
+}
+/*¼ýÍ·*/
+.arrow{
+    width: 0.8rem;
+    height: 0.3rem;
+    background: url("../img/download.png") no-repeat;
+    background-size: 0.3rem 0.2rem;
+    position: fixed;
+    bottom: 0.08rem;
+    left: 48%;
+    z-index: 20;
+}
+/*yinyue*/
+.music{
+    display: block;
+    background: url("../img/music_off.png");
+    position: fixed;
+    right: 0.3rem;
+    top: 0.3rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-size: 0.5rem 0.5rem;
+    z-index: 999;
+}
+
